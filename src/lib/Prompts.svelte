@@ -18,7 +18,6 @@
 <div class="columns is-centered">
   <div class="column is-half">
     <div class="dropdown is-fullwidth" class:is-active={active}>
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
       <div class="dropdown-trigger" on:click={() => { active = !active }}>
         <button class="button is-fullwidth" aria-haspopup="true" aria-controls="dropdown-menu">
           <span>Select a pre-made prompt</span>
