@@ -14,7 +14,7 @@
 </script>
 
 {#if input}
-/* 
+<!--
 <div class="columns is-centered">
   <div class="column is-half">
     <div class="dropdown is-fullwidth" class:is-active={active}>
@@ -37,7 +37,7 @@
     </div>
   </div>
 </div>
-*/
+-->
 
 <div class="columns is-centered">
   <div class="column is-half has-text-centered">or type below:</div>
