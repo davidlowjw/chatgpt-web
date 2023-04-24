@@ -425,9 +425,11 @@
       ><span class="greyscale">🎤</span></button
     >
   </p>
+  <!--
   <p class="control">
     <button class="button" on:click|preventDefault={showSettings}><span class="greyscale">⚙️</span></button>
   </p>
+  -->
   <p class="control">
     <button class="button is-info" type="submit">Send</button>
   </p>
